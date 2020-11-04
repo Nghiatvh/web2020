@@ -1,0 +1,91 @@
+.col20 {
+    width: 20%;
+    padding-left: 100px;
+}
+
+.col80 {
+    width: 80%;
+}
+
+section.content { 
+    display: flex;
+}
+
+ul.vertical {
+    flex-direction: column;
+}
+
+ul.vertical > li > a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+div.collection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.figure {
+    width: 20%;
+    text-align: center;
+    padding: 1%;
+}
+
+div.figure  img {
+    width: 100%;
+    cursor: pointer;
+}
+
+div.figure img:hover{
+    transform: rotate(20deg);
+    transition: transform .5s;
+}
+
+.button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+  
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#back-to-top {
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: #189EFF;
+	color: #fff;
+	padding: 15px;
+}

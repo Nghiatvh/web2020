@@ -1,0 +1,28 @@
+.flex {
+	display: flex;
+}
+
+.content {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.right img {
+	width: 30%;
+}
+
+div.thumb > div {
+	width: 25%;
+}
+
+div.thumb img {
+	cursor:pointer;
+}
+
+.col20 {
+	width: 20%;
+}
+
+.col80 {
+	width: 80%;
+}

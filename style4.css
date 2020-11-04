@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    /*background-image: url(pic/nen.jpg);*/
+  }
+  
+header {
+    align-items: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    background-image: url(pic/nen.jpg);
+}
+  
+.col10{width: 10%;}
+.col15{width: 15%;}
+.col20{width: 20%;}
+.col25{width: 25%;}
+.col30{width: 30%;}
+.col70{width: 70%;}
+  
+nav > ul {
+    display: flex;
+    background-color: #272727;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+nav > ul > li > a {
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+  
+nav > ul > li > a:hover{
+    color: teal;
+}
+  
+div.gundams{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+section.content{
+    display: flex;
+    color:black;
+}
+  
+div.gundams{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+div.gundam {
+    width: 20%;
+    text-align: center;
+    padding: 1%;
+}
+  
+  figure {
+    margin: 0;
+  }
+  
+  .price {
+    color: red;
+  }
+  
+  div.gundam img {
+    width: 100%;
+  }
+  
+  .subcontent > li > a {
+    text-decoration: none;
+    color:white;
+  }
+  
+  .subcontent > li > a:hover {
+    color: teal;
+  }
+  
+  .subcontent {
+    position: absolute;
+    list-style-type: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s;
+  }
+  
+  .submenu:hover .subcontent {
+    background-color: #272727;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  footer {
+    padding: 15px 20px;
+    background-image: url(pic/nen.jpg);
+  }
+  
+  footer h1, footer p {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  footer li, footer h3 {color: white;}
+  
+  .nav .search-container {
+    float: right;
+  }
+  
+  .nav input[type=text] {
+    padding: 6px;
+    margin-top: 36px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .nav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 29px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav .search-container button:hover {
+    background: #ccc;
+  }
+  
